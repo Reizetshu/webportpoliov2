@@ -1,14 +1,13 @@
-.skills {
+.projects {
     width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #202331;
 }
 
-.skills-tag {
+.projects-tag {
     align-self: flex-start;
     margin-left: 13%;
     margin-top: 10px;
@@ -16,47 +15,49 @@
     font-size: 25px;
 }
 
-.skills-span {
+.projects-span {
     font-size: 25px;
     color: #f43638;
 }
 
-.skills-prog {
+.projects-container {
     width: 70%;
     border-radius: 12px;
     border-style: solid;
     border-color: #f43638;
     display: flex;
-    flex-direction: column;
     justify-content: space-evenly;
-    align-items: center;
+    flex-direction: column;
 }
 
-.skills-prog div h4 {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.skills-prog div div p {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 16px;
-}
-
-.skills-prog-mar {
-    margin-bottom: 30px;
-}
-
-.skills-prog-inner {
+.projects-buttons {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    flex-direction: row;
-    text-align: center;
 }
 
-.skills-img {
-    width: 150px;
-    height: 150px;
+.projects-button {
+    width: 250px;
+    background-color: #f43638;
+    padding: 10px 0px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.projects-button-active {
+    width: 250px;
+    background-color: white;
+    color: black;
+    padding: 10px 0px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.projects-previews {
+    align-self: center;
+    width: 80%;
+    height: 60vh;
+    border-radius: 8px;
+    border-style: solid;
 }
