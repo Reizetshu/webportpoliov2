@@ -6,11 +6,11 @@ import landinggif from '../assets/landinggif.gif';
 
 const LandingPage = () => {
   return (
-    <section className='landing'>
+    <section id='landing' className='landing'>
         <img className='landing-page' src={landinggif} alt='landingpage'/>
         <div className='landing-intro'>
             <h2 className='landing-heading'>
-                Let Make Things Possible in Efficient Way.
+                Let's Make Things Possible in Efficient Way.
             </h2>
             <div>
                 <h4 className='about-me'>

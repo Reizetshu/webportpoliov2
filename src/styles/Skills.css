@@ -59,4 +59,9 @@
 .skills-img {
     width: 150px;
     height: 150px;
+    transition: 250ms;
+}
+
+.skills-img:hover {
+    transform: translateY(-5px);
 }

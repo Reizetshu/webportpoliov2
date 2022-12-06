@@ -1,8 +1,14 @@
-import React from 'react'
+import redcube from '../assets/redcube.png';
+
+import '../styles/Header.css';
 
 const Header = () => {
   return (
-    <div>Header</div>
+    <header>
+      <a href='#landing'>
+        <img className='red' src={redcube}/>
+      </a>
+    </header>
   )
 }
 

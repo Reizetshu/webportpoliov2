@@ -5,6 +5,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color:#202331;
 }
 
 .projects-tag {
@@ -38,11 +39,14 @@
 }
 
 .projects-button {
-    width: 250px;
+    width: 200px;
     background-color: #f43638;
     padding: 10px 0px;
     border-radius: 8px;
     cursor: pointer;
+    transition: 250ms;
+    margin: 15px 0px 20px 0px;
+    font-size: 16px;
 }
 
 .projects-button-active {
@@ -52,6 +56,7 @@
     padding: 10px 0px;
     border-radius: 8px;
     cursor: pointer;
+    transition: 250ms;
 }
 
 .projects-previews {
@@ -60,4 +65,30 @@
     height: 60vh;
     border-radius: 8px;
     border-style: solid;
+    margin-bottom: 15px;
+}
+
+.projects-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.projects-descriptions {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.projects-descriptions h4 {
+    color: #f43638;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.projects-descriptions p {
+    margin-bottom: 10px;
+}
+
+.projects-empty {
+    padding-bottom: 30px;
 }
