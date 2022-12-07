@@ -3,6 +3,7 @@ import {BiChevronDownCircle} from 'react-icons/bi';
 import '../styles/LandingPage.css';
 
 import landinggif from '../assets/landinggif.gif';
+import resume from '../assets/MarkBensonB.HernandoFullStackDevMERN2022.pdf';
 
 const LandingPage = () => {
   return (
@@ -20,7 +21,7 @@ const LandingPage = () => {
                     </span>
                     &gt;
                 </h4>
-                <p className='landing-txt'>My name is Mark Benson B. Hernando. I recently graduated as a <span className='landing-span'>Computer Engineering</span>.<br/>I am an aspiring Fullstack Web Developer especially <span className='landing-span'>MERN Stack</span>. I am seeking for knowledge<br/>all the things that peeks my interest but for know I want to focus on my web development career.</p>
+                <p className='landing-txt'>My name is Mark Benson B. Hernando. I recently graduated as a <span className='landing-span'>Computer Engineering</span>.<br/>I am an Fullstack Web Developer especially <span className='landing-span'>MERN Stack</span>. I am seeking for knowledge all<br/>the things that peeks my interest but for know I want to focus on my web development career.</p>
                 <h4 className='about-me'>
                     &lt;/
                     <span className='landing-span about-me'>
@@ -29,9 +30,11 @@ const LandingPage = () => {
                     &gt;
                 </h4>
             </div>
+            <a href={resume} download>
             <button className='learn-more'>
-                Learn More About Me
+                Download CV
             </button>
+            </a>
         </div>
         <a href='#skills'>
             <BiChevronDownCircle className='landing-down' size={50}/>

@@ -6,10 +6,10 @@ const Header = () => {
   return (
     <header>
       <a href='#landing'>
-        <img className='red' src={redcube}/>
+        <img className='red' src={redcube} alt='redcube'/>
       </a>
     </header>
   )
 }
 
-export default Header
+export default Header;
