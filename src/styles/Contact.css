@@ -88,6 +88,13 @@
     height: 50px;
     background-color: #f43638;
     border-radius: 8px;
+    cursor: pointer;
+    transition: 250ms;
+}
+
+.contact-button:hover {
+    background-color: white;
+    color: black;
 }
 
 .contact-button-container {

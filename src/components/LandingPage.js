@@ -21,7 +21,7 @@ const LandingPage = () => {
                     </span>
                     &gt;
                 </h4>
-                <p className='landing-txt'>My name is Mark Benson B. Hernando. I recently graduated as a <span className='landing-span'>Computer Engineering</span>.<br/>I am an Fullstack Web Developer especially <span className='landing-span'>MERN Stack</span>. I am seeking for knowledge all<br/>the things that peeks my interest but for know I want to focus on my web development career.</p>
+                <p className='landing-txt'>My name is Mark Benson B. Hernando. I recently graduated as a <span className='landing-span'>Computer Engineering</span>.<br/>I am a Fullstack Web Developer especially <span className='landing-span'>MERN Stack</span>. I am seeking for knowledge all the<br/>things that peeks my interest but for know I want to focus on my web development career.</p>
                 <h4 className='about-me'>
                     &lt;/
                     <span className='landing-span about-me'>
