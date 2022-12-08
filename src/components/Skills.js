@@ -35,53 +35,77 @@ const Skills = () => {
         </div>
         <div className='skills-prog-inner'>
           <div>
-            <img className='skills-img' src={html} alt='html'/>
+            <div className='img-container'>
+              <img className='skills-img' src={html} alt='html' />
+            </div>
             <p>HTML</p>
           </div>
           <div>
-            <img className='skills-img' src={css} alt='css'/>
+            <div className='img-container'>
+              <img className='skills-img' src={css} alt='css' />
+            </div>
             <p>CSS</p>
           </div>
           <div>
-          <img className='skills-img' src={javascript} alt='javascript'/>
-          <p>JavaScript</p>
+            <div className='img-container'>
+              <img className='skills-img' src={javascript} alt='javascript' />
+            </div>
+            <p>JavaScript</p>
           </div>
-          <div>
-          <img className='skills-img' src={react} alt='react'/>
+          <div >
+            <div className='img-container'>
+              <img className='skills-img' src={react} alt='react' />
+            </div>
             <p>React</p>
           </div>
           <div>
-            <img className='skills-img' src={redux} alt='redux'/>
+            <div className='img-container'>
+              <img className='skills-img' src={redux} alt='redux' />
+            </div>
             <p>Redux</p>
           </div>
           <div>
-            <img className='skills-img' src={python} alt='python'/>
+            <div className='img-container'>
+              <img className='skills-img' src={python} alt='python' />
+            </div>
             <p>Python</p>
           </div>
         </div>
         <div className='skills-prog-inner'>
           <div>
-            <img className='skills-img' src={nodejs} alt='nodejs'/>
+            <div className='img-container'>
+              <img className='skills-img' src={nodejs} alt='nodejs' />
+            </div>
             <p>NodeJS</p>
           </div>
           <div>
-            <img className='skills-img' src={express} alt='express'/>
+            <div className='img-container'>
+              <img className='skills-img' src={express} alt='express' />
+            </div>
             <p>Express</p>
           </div>
           <div>
-            <img className='skills-img' src={mongodb} alt='mongodb'/>
+            <div className='img-container'>
+              <img className='skills-img' src={mongodb} alt='mongodb' />
+            </div>
             <p>MongoDB</p>
           </div>
           <div>
-            <img className='skills-img' src={java} alt='java'/>
+            <div className='img-container'>
+              <img className='skills-img' src={java} alt='java' />
+            </div>
             <p>Java</p>
           </div>
           <div>
-            <img className='skills-img' src={git} alt='git'/>
+            <div className='img-container'>
+              <img className='skills-img' src={git} alt='git' />
+            </div>
             <p>Git</p>
           </div>
           <div>
-            <img className='skills-img' src={arduino} alt='arduino'/>
+            <div className='img-container'>
+              <img className='skills-img' src={arduino} alt='arduino' />
+            </div>
             <p>Arduino</p>
           </div>
         </div>
@@ -90,25 +114,33 @@ const Skills = () => {
         <div>
           <h4>Other Skills</h4>
         </div>
-          <div className='skills-prog-inner'>
-            <div>
-              <img className='skills-img' src={cpu} alt='Hardware Troubleshooting'/>
-              <p>Hardware Troubleshooting</p>
+        <div className='skills-prog-inner'>
+          <div>
+            <div className='img-container'>
+              <img className='skills-img' src={cpu} alt='Hardware Troubleshooting' />
             </div>
-            <div>
-              <img className='skills-img' src={idea} alt='Problem-Solving'/>
-              <p>Problem-Solving</p>
+            <p>Hardware Troubleshooting</p>
+          </div>
+          <div>
+            <div className='img-container'>
+              <img className='skills-img' src={idea} alt='Problem-Solving' />
             </div>
-            <div>
-              <img className='skills-img' src={united} alt='Team Work'/>
-              <p>Teamwork</p>
+            <p>Problem-Solving</p>
+          </div>
+          <div>
+            <div className='img-container'>
+              <img className='skills-img' src={united} alt='Team Work' />
             </div>
-            <div>
-              <img className='skills-img' src={adapt} alt='Adaptability'/>
-              <p>Adaptability</p>
+            <p>Teamwork</p>
+          </div>
+          <div>
+            <div className='img-container'>
+              <img className='skills-img' src={adapt} alt='Adaptability' />
             </div>
+            <p>Adaptability</p>
           </div>
         </div>
+      </div>
       <h4 className='skills-tag'>
         &lt;/
         <span className='skills-span'>

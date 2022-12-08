@@ -8,6 +8,7 @@ const Header = () => {
       <a href='#landing'>
         <img className='red' src={redcube} alt='redcube'/>
       </a>
+      <p>MBHernando</p>
     </header>
   )
 }

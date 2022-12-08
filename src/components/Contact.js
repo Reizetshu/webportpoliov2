@@ -1,8 +1,34 @@
+import { useState } from 'react';
 import { AiFillGithub, AiFillLinkedin, AiFillGitlab } from 'react-icons/ai';
 
 import '../styles/Contact.css';
 
 const Contact = () => {
+
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [subject, setSubject] = useState('');
+  const [message, setMessage] = useState('');
+
+  const onNameHandler = e => {
+    setName(e.target.value);
+  };
+  const onEmailHandler = e => {
+    setEmail(e.target.value);
+  };
+  const onSubjectHandler = e => {
+    setSubject(e.target.value);
+  };
+  const onMessageHandler = e => {
+    setMessage(e.target.value);
+  };
+  const onSubmitHandler = e => {
+    e.preventDefault();
+    setName('');
+    setEmail('');
+    setSubject('');
+    setMessage('');
+  }
   return (
     <section className='contact'>
       <h4 className='contact-tag'>
@@ -19,24 +45,33 @@ const Contact = () => {
             <input
               className='contact-name'
               type='text'
-              placeholder='Name' />
+              placeholder='Name'
+              onChange={onNameHandler}
+              value={name} />
             <input
               className='contact-email'
               type='email'
-              placeholder='Email' />
+              placeholder='Email'
+              onChange={onEmailHandler}
+              value={email} />
           </div>
           <input
             className='contact-2'
             type='text'
-            placeholder='Subject' />
+            placeholder='Subject'
+            onChange={onSubjectHandler}
+            value={subject} />
           <textarea
             className='contact-3'
-            placeholder='Message'>
+            placeholder='Message'
+            onChange={onMessageHandler}
+            value={message}>
           </textarea>
           <div className='contact-button-container'>
             <button
               className='contact-button'
-              type='submit'>
+              type='submit'
+              onClick={onSubmitHandler}>
               Send
             </button>
           </div>

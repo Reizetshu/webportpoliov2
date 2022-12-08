@@ -2,7 +2,11 @@ header {
     margin: 0;
     width: 100%;
     position: fixed;
-    background-color: transparent;  
+    background-color: transparent; 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .red {
@@ -10,4 +14,8 @@ header {
     height: 50px;
     margin-top: 15px;
     margin-left: 20px;
+}
+
+header p {
+    text-shadow: -2px 2px #f43638;
 }
