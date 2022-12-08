@@ -1,0 +1,286 @@
+/* making responsive page with laptop L screen 1440px */
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+
+    .red {
+        width: 40px;
+        height: 40px;
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+    header p {
+        display: none;
+    }
+    .landing-heading {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .about-me-container {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    .about-me-inner {
+        font-size: 25px;
+    }
+
+    .landing-span {
+        font-size: 20px;
+    }
+
+    .learn-more {
+        margin-left: 5%;
+    }
+
+    .skills-img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .projects-button {
+        width: 100px;
+        font-size: 10px;
+    }
+
+    .projects-button-active {
+        width: 100px;
+        padding: 10px 0px;
+        font-size: 10px;
+    }
+
+    .b3, .b4, .b5 {
+        padding: 18.5px 0px;
+    }
+
+    .b3a, .b4a, .b5a {
+        padding: 18.5px 0px;
+    }
+
+    .projects-descriptions h4 {
+        font-size: 20px;
+    }
+
+    .projects-descriptions p {
+        font-size: 16px;
+    }
+}
+
+/* making responsive page with laptop screen 1024px */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+    .red {
+        width: 40px;
+        height: 40px;
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+    header p {
+        display: none;
+    }
+    .landing-heading {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .about-me-container {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    .about-me-inner {
+        font-size: 25px;
+    }
+
+    .landing-span {
+        font-size: 20px;
+    }
+
+    .none {
+        display: none;
+    }
+
+    .learn-more {
+        margin-left: 5%;
+    }
+
+    .skills-img {
+        width: 75px;
+        height: 75px;
+    }
+
+    .projects-button {
+        width: 100px;
+        font-size: 10px;
+    }
+
+    .projects-button-active {
+        width: 100px;
+        padding: 10px 0px;
+        font-size: 10px;
+    }
+
+    .b3, .b4, .b5 {
+        padding: 18.5px 0px;
+    }
+
+    .b3a, .b4a, .b5a {
+        padding: 18.5px 0px;
+    }
+
+    .projects-descriptions h4 {
+        font-size: 20px;
+    }
+
+    .projects-descriptions p {
+        font-size: 16px;
+    }
+
+    .contact-info h4 {
+        text-align: center;
+        margin-top: 40px;
+    }
+}
+
+/* making responsive page with tablet screen 768px */
+@media screen and (max-width: 768px) {
+    .red {
+        width: 40px;
+        height: 40px;
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+    header p {
+        display: none;
+    }
+    .landing-heading {
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 44px;
+    }
+
+    .about-me-container {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    .about-me-inner {
+        font-size: 25px;
+    }
+
+    .landing-span {
+        font-size: 20px;
+    }
+
+    .none {
+        display: none;
+    }
+
+    .learn-more {
+        margin-left: 5%;
+    }
+
+    .skills {
+        height: 280vh;
+    }
+
+    .skills-img {
+        width: 75px;
+        height: 75px;
+    }
+
+    .skills-prog-inner {
+        flex-direction: column;
+    }
+
+    .projects {
+        height: 110vh;
+    }
+
+    .projects-container {
+        padding-top: 10px;
+    }
+
+    .projects-buttons {
+        flex-direction: column;
+    }
+
+    .projects-button {
+        font-size: 10px;
+        margin-top: 10px;
+        font-size: 16px;
+    }
+
+    .projects-button-active {
+        padding: 10px 0px;
+        font-size: 10px;
+        font-size: 16px;
+    }
+
+    .projects-descriptions {
+        margin-left: 30px;
+        margin-bottom: 15px;
+    }
+
+    .projects-descriptions h4 {
+        font-size: 20px;
+    }
+
+    .projects-descriptions p {
+        font-size: 16px;
+    }
+
+    .projects-image-des {
+        flex-direction: column;
+    }
+
+    .projects-previews {
+        width: 200px;
+        height: 120px;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .contact-info {
+        width: 200px;
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    .contact-info h4 {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .contact-division {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .contact-form {
+        margin: 0;
+    }
+
+    .contact-form p {
+        margin-left: -40px;
+        font-size: 14px;
+    }
+
+    .contact-1 {
+        flex-direction: column;
+    }
+
+    .contact-name {
+        width: auto;
+        margin-bottom: 20px;
+    }
+
+    .contact-email {
+        width: auto;
+    }
+
+    .contact-button-container {
+        justify-content: center;
+    }
+}

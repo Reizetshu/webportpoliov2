@@ -144,17 +144,17 @@ const Projects = () => {
             Three-Way Element
           </button>
           <button
-            className={(!dueDate) ? 'projects-button-active' : 'projects-button'}
+            className={(!dueDate) ? 'projects-button-active b3a' : 'projects-button b3'}
             onClick={onDueDateHandler}>
             Due Date Wise
           </button>
           <button
-            className={(!chronoBreak) ? 'projects-button-active' : 'projects-button'}
+            className={(!chronoBreak) ? 'projects-button-active b4a' : 'projects-button b4'}
             onClick={onChronoBreakHandler}>
             ChronoBreak
           </button>
           <button
-            className={(!juanDemand) ? 'projects-button-active' : 'projects-button'}
+            className={(!juanDemand) ? 'projects-button-active b5a' : 'projects-button b5'}
             onClick={onJuanDemandHandler}>
             JuanDemand
           </button>
@@ -164,98 +164,110 @@ const Projects = () => {
             React Web Portfolio
           </button>
         </div>
-        {(!webStatic) ?
-          <div className='projects-previews'>
-            <img className='projects-img' src={wstatic} alt='webstatic' />
-          </div> : (!threeWay) ?
+        <div className='projects-image-des'>
+          {(!webStatic) ?
             <div className='projects-previews'>
-              <img className='projects-img' src={tway} alt='threeway' />
-            </div> : (!dueDate) ?
+              <img className='projects-img' src={wstatic} alt='webstatic' />
+            </div> : (!threeWay) ?
               <div className='projects-previews'>
-                <img className='projects-img' src={ddate} alt='duedate' />
-              </div> : (!chronoBreak) ?
+                <img className='projects-img' src={tway} alt='threeway' />
+              </div> : (!dueDate) ?
                 <div className='projects-previews'>
-                  <img className='projects-img' src={construction} alt='chronobreak' />
-                </div> : (!juanDemand) ?
+                  <img className='projects-img' src={ddate} alt='duedate' />
+                </div> : (!chronoBreak) ?
                   <div className='projects-previews'>
-                    <img className='projects-img' src={jdemand} alt='jdemand' />
-                  </div> : (!reactWeb) ?
+                    <img className='projects-img' src={construction} alt='chronobreak' />
+                  </div> : (!juanDemand) ?
                     <div className='projects-previews'>
-                      <img className='projects-img' src={rweb} alt='reactweb' />
-                    </div> : <></>}
-        {(!webStatic) ?
-          <div className='projects-descriptions'>
-            <h4>Tech Stack:</h4>
-            <p>HTML & CSS</p>
-            <div className='project-links'>
-              <a href='https://staticwebportfolio.vercel.app/' target='_blank' className='project-link'>Demo</a>
-              <span className='project-margin'>|</span>
-              <a href='https://github.com/Reizetshu/webportfolio' target='_blank' className='project-link'>Code</a>
-            </div>
-            <p>
-              This is the first website that I created using HTML and CSS. I use an Oswald font and use animation on my logo. This web portfolio is mobile responsive.
-            </p>
-          </div> : (!threeWay) ?
+                      <img className='projects-img' src={jdemand} alt='jdemand' />
+                    </div> : (!reactWeb) ?
+                      <div className='projects-previews'>
+                        <img className='projects-img' src={rweb} alt='reactweb' />
+                      </div> : <></>}
+          {(!webStatic) ?
             <div className='projects-descriptions'>
               <h4>Tech Stack:</h4>
-              <p>HTML, CSS, & JavaScript</p>
+              <p>HTML & CSS</p>
               <div className='project-links'>
-                <a href='https://three-way-element.vercel.app/' target='_blank' className='project-link'>Demo</a>
+                <a href='https://staticwebportfolio.vercel.app/' target='_blank' className='project-link'>Demo</a>
                 <span className='project-margin'>|</span>
-                <a href='https://github.com/Reizetshu/js-game' target='_blank' className='project-link'>Code</a>
+                <a href='https://github.com/Reizetshu/webportfolio' target='_blank' className='project-link'>Code</a>
               </div>
               <p>
-                This Game is called Three-Way Element it is a Rock, Paper, or Scissors with more visually appealing. It is my most favorite App that I did. The first time that I use JavaScript to make a website dynamic.
+                This is the first website that I created using HTML and CSS.
+                I use an Oswald font and use animation on my logo.
+                This web portfolio is mobile responsive.
               </p>
-            </div> : (!dueDate) ?
+            </div> : (!threeWay) ?
               <div className='projects-descriptions'>
                 <h4>Tech Stack:</h4>
-                <p>MERN Stack with Redux</p>
+                <p>HTML, CSS, & JavaScript</p>
                 <div className='project-links'>
-                  <a href='https://duedatewise.vercel.app/' target='_blank' className='project-link'>Demo</a>
+                  <a href='https://three-way-element.vercel.app/' target='_blank' className='project-link'>Demo</a>
                   <span className='project-margin'>|</span>
-                  <a href='https://github.com/Reizetshu/duedatewise' target='_blank' className='project-link'>Code</a>
+                  <a href='https://github.com/Reizetshu/js-game' target='_blank' className='project-link'>Code</a>
                 </div>
                 <p>
-                  Due Date Wise helps you keep track of you bills and will be reminded by email (on progress). This is have a CRUD functionality.
+                  This Game is called Three-Way Element, it is a Rock, Paper, or Scissors with more visually appealing.
+                  It is my most favorite App that I did.
+                  The first time that I use JavaScript to make a website dynamic.
                 </p>
-              </div> : (!chronoBreak) ?
+              </div> : (!dueDate) ?
                 <div className='projects-descriptions'>
                   <h4>Tech Stack:</h4>
                   <p>MERN Stack with Redux</p>
                   <div className='project-links'>
-                    <a href='https://chronobreak.vercel.app/' target='_blank' className='project-link'>Demo</a>
+                    <a href='https://duedatewise.vercel.app/' target='_blank' className='project-link'>Demo</a>
                     <span className='project-margin'>|</span>
-                    <a href='https://github.com/Reizetshu/chronobreak' target='_blank' className='project-link'>Code</a>
+                    <a href='https://github.com/Reizetshu/duedatewise' target='_blank' className='project-link'>Code</a>
                   </div>
                   <p>
-                    ChronoBreak is a Sport Facility Booking App where you can book any facilities that you desire at that Facility Center. (On progress.)
+                    Due Date Wise helps you keep track of you bills and will be reminded by email (on progress).
+                    This is have a CRUD functionality.
                   </p>
-                </div> : (!juanDemand) ?
+                </div> : (!chronoBreak) ?
                   <div className='projects-descriptions'>
                     <h4>Tech Stack:</h4>
                     <p>MERN Stack with Redux</p>
                     <div className='project-links'>
-                      <a href='https://juandemand.vercel.app/' target='_blank' className='project-link'>Demo</a>
+                      <a href='https://chronobreak.vercel.app/' target='_blank' className='project-link'>Demo</a>
                       <span className='project-margin'>|</span>
-                      <a href='https://github.com/Reizetshu/juandemand' target='_blank' className='project-link'>Code</a>
+                      <a href='https://github.com/Reizetshu/chronobreak' target='_blank' className='project-link'>Code</a>
                     </div>
                     <p>
-                      JuanDemand is a Job site that will accommodate all blue collar skilled workers. In this app, job hunter and employer can register and send or accept offers it is like a linkedin focus on blue collar skilled workers.
+                      ChronoBreak is a Sport Facility Booking App where you can book any facilities
+                      that you desire at that Facility Center. (On progress.)
                     </p>
-                  </div> : (!reactWeb) ?
+                  </div> : (!juanDemand) ?
                     <div className='projects-descriptions'>
                       <h4>Tech Stack:</h4>
-                      <p>React</p>
+                      <p>MERN Stack with Redux</p>
                       <div className='project-links'>
-                        <a href='https://mbhernandowebportfolio.vercel.app/' target='_blank' className='project-link'>Demo</a>
+                        <a href='https://juandemand.vercel.app/' target='_blank' className='project-link'>Demo</a>
                         <span className='project-margin'>|</span>
-                        <a href='https://github.com/Reizetshu/webportpoliov2' target='_blank' className='project-link'>Code</a>
+                        <a href='https://github.com/Reizetshu/juandemand' target='_blank' className='project-link'>Code</a>
                       </div>
                       <p>
-                        An updated web portfolio using React. A simpler take and clean visual that are more appealing than my first web portfolio. Also all of my latest projects are here.
+                        JuanDemand is a Job site that will accommodate all blue collar skilled workers.
+                        In this app, job hunter and employer can register and send or accept offers it is like a linkedin focus
+                        on blue collar skilled workers.
                       </p>
-                    </div> : <></>}
+                    </div> : (!reactWeb) ?
+                      <div className='projects-descriptions'>
+                        <h4>Tech Stack:</h4>
+                        <p>React</p>
+                        <div className='project-links'>
+                          <a href='https://mbhernandowebportfolio.vercel.app/' target='_blank' className='project-link'>Demo</a>
+                          <span className='project-margin'>|</span>
+                          <a href='https://github.com/Reizetshu/webportpoliov2' target='_blank' className='project-link'>Code</a>
+                        </div>
+                        <p>
+                          An updated web portfolio using React. A simpler take and clean visual
+                          that are more appealing than my first web portfolio.
+                          Also all of my latest projects are here.
+                        </p>
+                      </div> : <></>}
+        </div>
       </div>
 
       <h4 className='projects-tag projects-tag-end'>

@@ -119,7 +119,7 @@ const Skills = () => {
             <div className='img-container'>
               <img className='skills-img' src={cpu} alt='Hardware Troubleshooting' />
             </div>
-            <p>Hardware Troubleshooting</p>
+            <p>Hardware<br/>Troubleshooting</p>
           </div>
           <div>
             <div className='img-container'>
