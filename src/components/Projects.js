@@ -188,9 +188,9 @@ const Projects = () => {
             <h4>Tech Stack:</h4>
             <p>HTML & CSS</p>
             <div className='project-links'>
-              <a href='https://staticwebportfolio.vercel.app/' target='_blank'>Demo</a>
+              <a href='https://staticwebportfolio.vercel.app/' target='_blank' className='project-link'>Demo</a>
               <span className='project-margin'>|</span>
-              <a href='https://github.com/Reizetshu/webportfolio' target='_blank'>Code</a>
+              <a href='https://github.com/Reizetshu/webportfolio' target='_blank' className='project-link'>Code</a>
             </div>
             <p>
               This is the first website that I created using HTML and CSS. I use an Oswald font and use animation on my logo. This web portfolio is mobile responsive.
@@ -200,9 +200,9 @@ const Projects = () => {
               <h4>Tech Stack:</h4>
               <p>HTML, CSS, & JavaScript</p>
               <div className='project-links'>
-                <a href='https://three-way-element.vercel.app/' target='_blank'>Demo</a>
+                <a href='https://three-way-element.vercel.app/' target='_blank' className='project-link'>Demo</a>
                 <span className='project-margin'>|</span>
-                <a href='https://github.com/Reizetshu/js-game' target='_blank'>Code</a>
+                <a href='https://github.com/Reizetshu/js-game' target='_blank' className='project-link'>Code</a>
               </div>
               <p>
                 This Game is called Three-Way Element it is a Rock, Paper, or Scissors with more visually appealing. It is my most favorite App that I did. The first time that I use JavaScript to make a website dynamic.
@@ -212,9 +212,9 @@ const Projects = () => {
                 <h4>Tech Stack:</h4>
                 <p>MERN Stack with Redux</p>
                 <div className='project-links'>
-                  <a href='https://duedatewise.vercel.app/' target='_blank'>Demo</a>
+                  <a href='https://duedatewise.vercel.app/' target='_blank' className='project-link'>Demo</a>
                   <span className='project-margin'>|</span>
-                  <a href='https://github.com/Reizetshu/duedatewise' target='_blank'>Code</a>
+                  <a href='https://github.com/Reizetshu/duedatewise' target='_blank' className='project-link'>Code</a>
                 </div>
                 <p>
                   Due Date Wise helps you keep track of you bills and will be reminded by email (on progress). This is have a CRUD functionality.
@@ -224,9 +224,9 @@ const Projects = () => {
                   <h4>Tech Stack:</h4>
                   <p>MERN Stack with Redux</p>
                   <div className='project-links'>
-                    <a href='https://chronobreak.vercel.app/' target='_blank'>Demo</a>
+                    <a href='https://chronobreak.vercel.app/' target='_blank' className='project-link'>Demo</a>
                     <span className='project-margin'>|</span>
-                    <a href='https://github.com/Reizetshu/chronobreak' target='_blank'>Code</a>
+                    <a href='https://github.com/Reizetshu/chronobreak' target='_blank' className='project-link'>Code</a>
                   </div>
                   <p>
                     ChronoBreak is a Sport Facility Booking App where you can book any facilities that you desire at that Facility Center. (On progress.)
@@ -236,9 +236,9 @@ const Projects = () => {
                     <h4>Tech Stack:</h4>
                     <p>MERN Stack with Redux</p>
                     <div className='project-links'>
-                      <a href='https://juandemand.vercel.app/' target='_blank'>Demo</a>
+                      <a href='https://juandemand.vercel.app/' target='_blank' className='project-link'>Demo</a>
                       <span className='project-margin'>|</span>
-                      <a href='https://github.com/Reizetshu/juandemand' target='_blank'>Code</a>
+                      <a href='https://github.com/Reizetshu/juandemand' target='_blank' className='project-link'>Code</a>
                     </div>
                     <p>
                       JuanDemand is a Job site that will accommodate all blue collar skilled workers. In this app, job hunter and employer can register and send or accept offers it is like a linkedin focus on blue collar skilled workers.
@@ -248,9 +248,9 @@ const Projects = () => {
                       <h4>Tech Stack:</h4>
                       <p>React</p>
                       <div className='project-links'>
-                        <a href='https://mbhernandowebportfolio.vercel.app/' target='_blank'>Demo</a>
+                        <a href='https://mbhernandowebportfolio.vercel.app/' target='_blank' className='project-link'>Demo</a>
                         <span className='project-margin'>|</span>
-                        <a href='https://github.com/Reizetshu/webportpoliov2' target='_blank'>Code</a>
+                        <a href='https://github.com/Reizetshu/webportpoliov2' target='_blank' className='project-link'>Code</a>
                       </div>
                       <p>
                         An updated web portfolio using React. A simpler take and clean visual that are more appealing than my first web portfolio. Also all of my latest projects are here.
